@@ -23,8 +23,30 @@ public class SnakeTest {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testIsHealthy() {
+		
+		boolean testtakis = takis.isHealthy();
+		assertTrue(testtakis);
+		
+		
+		boolean testpeter = peter.isHealthy();
+		assertTrue(testpeter);
+	
 	}
+	
+	@Test
+	public void testFitInCage() {
+		
+		boolean testtakis = takis.isHealthy();
+		assertTrue(testtakis);
+		
+		
+		boolean testpeter = peter.isHealthy();
+		assertTrue(testpeter);
+	
+	}
+	
+	
+	
 
 }
